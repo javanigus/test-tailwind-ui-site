@@ -1,0 +1,6 @@
+@import 'button.css';
+@import 'banner.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
