@@ -3,7 +3,7 @@
  */
 (function () {
 
-	$(".el").css("opacity", 0);
+	$(".el, .el2").css("opacity", 0);
 
 	anime({
 		targets: '.hero .el',
