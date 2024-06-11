@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Qualys</title>
 	  <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="marquee.css" />
   </head>
   <body>
 
@@ -90,9 +91,7 @@
     </div>
   </header>
 
-  
-
-  <div class="hero relative isolate pt-14">
+  <section id="hero" class="hero relative isolate pt-14">
     <div class="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80" aria-hidden="true">
       <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -117,13 +116,25 @@
     <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]" aria-hidden="true">
       <div class="relative left-[calc(50%+3rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%+36rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
-  </div>
+  </section>
 
+<section id="logos">
+  <a href="/customers/" class="marquee marquee--3">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/logo-pan-preto.svg" width="150" height="150" alt="">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/ancestry-120-2x.png" width="150" height="150" alt="">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/celestica-120-2x.png" width="150" height="150" alt="">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/capital-one-logo.svg" width="150" height="150" alt="">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/cisco-logo.svg" width="150" height="150" alt="">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/avaya.png" width="150" height="150" alt="">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/microsoft-text-white.svg" width="150" height="150" alt="">
+    <img class="marquee__item" src="https://ik.imagekit.io/qualys/image/logo/ibm-security.png" width="150" height="150" alt="">
+  </a>
+</section>
 
-<div id="de-risk" class="overflow-hidden bg-white py-24 sm:py-32">
-  <div class="el mx-auto max-w-7xl md:px-6 lg:px-8">
+<section id="de-risk" class="overflow-hidden bg-white py-24 sm:py-32">
+  <div class="mx-auto max-w-7xl md:px-6 lg:px-8">
     <div class="grid grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:grid-cols-2 lg:items-start">
-      <div class="px-6 lg:px-0 lg:pr-4 lg:pt-4">
+      <div class="el px-6 lg:px-0 lg:pr-4 lg:pt-4">
         <div class="mx-auto max-w-2xl lg:mx-0 lg:max-w-lg">
           <h2 class="text-base font-semibold leading-7 text-indigo-600">De-risk faster</h2>
           <p class="mt-2 text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">De-risk your business across the extended enterprise.</p>
@@ -134,7 +145,7 @@
 
         </div>
       </div>
-      <div class="el sm:px-6 lg:px-0">
+      <div class="el2 sm:px-6 lg:px-0">
         <div class="relative isolate overflow-hidden bg-indigo-500 px-6 pt-8 sm:mx-auto sm:max-w-2xl sm:rounded-3xl sm:pl-16 sm:pr-0 sm:pt-16 lg:mx-0 lg:max-w-none">
           <div class="absolute -inset-y-px -left-3 -z-10 w-full origin-bottom-left skew-x-[-30deg] bg-indigo-100 opacity-20 ring-1 ring-inset ring-white" aria-hidden="true"></div>
           <div class="mx-auto max-w-2xl sm:mx-0 sm:max-w-none">
@@ -145,9 +156,9 @@
       </div>
     </div>
   </div>
-</div>
+</section>
 
-<div id="apps" class="bg-white py-24 sm:py-32 bg-gradient-to-t from-indigo-50 to-#ffffff">
+<section id="apps" class="bg-white py-24 sm:py-32 bg-gradient-to-t from-indigo-50 to-#ffffff">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <div class="el">
@@ -215,9 +226,9 @@
       </dl>
     </div>
   </div>
-</div>
+</section>
 
-<div id="stats" class="bg-white py-24 sm:py-32">
+<section id="stats" class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="text-center">
@@ -260,9 +271,9 @@ apps</dd>
       <button type="button" class="button rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">Learn More</button>
     </div>
   </div>
-</div>
+</sect>
 
-<div id="features" class="bg-white py-24 sm:py-32 relative isolate">
+<section id="features" class="bg-white py-24 sm:py-32 relative isolate">
   <div class="absolute inset-x-0 -z-10 transform-gpu overflow-hidden blur-3xl" aria-hidden="true">
       <div class="relative left-[calc(50%-11rem)] aspect-[1155/678] w-[36.125rem] -translate-x-1/2 rotate-[30deg] bg-gradient-to-tr from-[#ff80b5] to-[#9089fc] opacity-30 sm:left-[calc(50%-30rem)] sm:w-[72.1875rem]" style="clip-path: polygon(74.1% 44.1%, 100% 61.6%, 97.5% 26.9%, 85.5% 0.1%, 80.7% 2%, 72.5% 32.5%, 60.2% 62.4%, 52.4% 68.1%, 47.5% 58.3%, 45.2% 34.5%, 27.5% 76.7%, 0.1% 64.9%, 17.9% 100%, 27.6% 76.8%, 76.1% 97.7%, 74.1% 44.1%)"></div>
     </div>
@@ -340,10 +351,10 @@ apps</dd>
       </div>
     </dl>
   </div>
-</div>
+</section>
 
 <hr>
-<div id="whitepaper" class="relative bg-white">
+<section id="whitepaper" class="relative bg-white">
   <img class="h-56 w-full bg-gray-50 object-cover lg:absolute lg:inset-y-0 lg:left-0 lg:h-full lg:w-1/2" src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2850&q=80" alt="">
   <div class="mx-auto grid max-w-7xl lg:grid-cols-2">
     <div class="px-6 pb-24 pt-16 sm:pb-32 sm:pt-20 lg:col-start-2 lg:px-8 lg:pt-32">
@@ -377,8 +388,10 @@ apps</dd>
       </div>
     </div>
   </div>
-</div>
+</section>
+
 <hr>
+
 <section id="testimonials" class="bg-white py-24 sm:py-32 ">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto sm:text-center mb-20">
@@ -423,7 +436,7 @@ apps</dd>
   </div>
 </section>
 
-<div id="events" class="bg-white py-24 sm:py-32 bg-gradient-to-b from-indigo-50 to-#ffffff">
+<section id="events" class="bg-white py-24 sm:py-32 bg-gradient-to-b from-indigo-50 to-#ffffff">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">Industry-leading cybersecurity events</h2>
@@ -514,11 +527,11 @@ apps</dd>
       <button type="button" class="button rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600">View All Events</button>
     </div>
   </div>
-</div>
+</section>
 
 <hr>
 
-<div id="news" class="bg-white py-24 sm:py-32">
+<section id="news" class="bg-white py-24 sm:py-32">
   <div class="mx-auto max-w-2xl text-center">
       <h2 class="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-16">Check out the latest in Qualys and enterprise cyber risk & security</h2>
     </div>
@@ -582,10 +595,10 @@ apps</dd>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 
-<div id="trial" class="bg-indigo-50">
+<section id="trial" class="bg-indigo-50">
   <div class="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
     <div class="mx-auto max-w-2xl text-center">
       <div class="el mx-auto w-28 mb-4">
@@ -615,7 +628,7 @@ apps</dd>
       </div>
     </div>
   </div>
-</div>
+</section>
 
 <footer class="bg-white" aria-labelledby="footer-heading">
   <h2 id="footer-heading" class="sr-only">Footer</h2>
