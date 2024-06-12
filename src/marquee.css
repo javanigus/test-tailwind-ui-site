@@ -32,8 +32,12 @@
   transform: translateX(-50%);
   animation: go linear var(--marquee-duration) var(--marquee-delay, 0s) infinite;
   transition: 200ms filter linear, 200ms -webkit-filter linear;
-    -webkit-filter: contrast(0) grayscale(1);
+  -webkit-filter: contrast(0) grayscale(1);
   filter: contrast(0) grayscale(1);
+}
+
+.marquee:hover .marquee__item {
+  filter: none;
 }
 
 .marquee__item:nth-child(8n) {
