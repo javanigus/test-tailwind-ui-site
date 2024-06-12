@@ -175,3 +175,13 @@
 		} 
 	}
 }());
+
+/*
+ * add class to header when user scrolls down x pixels to stick header to top
+ */
+(function () {
+	new Swiper('.swiper', {
+		speed: 400,
+		spaceBetween: 100,
+	});
+}());
