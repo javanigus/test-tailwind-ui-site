@@ -154,3 +154,21 @@
 		offset: '75%'
 	})
 }());
+
+/*
+ * add class to header when user scrolls down x pixels
+ */
+(function () {
+	new Waypoint({
+		element: document.getElementById('header'),
+		handler: function(direction) {
+			if (direction === "down") {
+				$("header").addClass("stuck");
+			} else {
+				$("header").removeClass("stuck");
+			}
+			console.log(direction);
+		},
+		offset: -20
+	})
+}());
