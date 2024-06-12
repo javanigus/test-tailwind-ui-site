@@ -13,6 +13,14 @@
 		delay: anime.stagger(200) // increase delay by 100ms for each elements.
 	});
 
+	anime({
+		targets: '.hero .el2',
+		opacity: [0,1],
+		duration: 3000,
+		translateX: [200, 0],
+		delay: anime.stagger(200) // increase delay by 100ms for each elements.
+	});
+
 	new Waypoint({
 		element: document.getElementById('de-risk'),
 		handler: function(direction) {
@@ -21,13 +29,6 @@
 				opacity: [0,1],
 				duration: 3000,
 				translateX: [-200, 0],
-				delay: anime.stagger(200) // increase delay by 100ms for each elements.
-			});
-			anime({
-				targets: '#de-risk .el2',
-				opacity: [0,1],
-				duration: 3000,
-				translateX: [200, 0],
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
