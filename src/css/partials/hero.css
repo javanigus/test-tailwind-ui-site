@@ -7,3 +7,6 @@
 .swiper-pagination-bullet-active {
 	background-color: black;
 }
+.swiper-slide {
+	max-height: 912px;
+}
