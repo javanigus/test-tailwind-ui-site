@@ -7,6 +7,8 @@
 		direction: 'horizontal',
 		autoplay: {
 			delay: 3000,
+			disableOnInteraction: false,
+    		pauseOnMouseEnter: true,
 		},
 		speed: 400,
 		loop: true,
