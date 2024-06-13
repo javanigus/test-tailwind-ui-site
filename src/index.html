@@ -4,6 +4,10 @@
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Qualys</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
 	  <link rel="stylesheet" href="styles.css" />
     <link rel="stylesheet" href="marquee.css" />
     <link rel="stylesheet" href="hero.css" />
@@ -93,7 +97,7 @@
   </header>
 </div>
 
-<div id="hero" class="swiper">
+<div id="hero" class="swiper max-h-[912px]">
   <div class="swiper-wrapper">
     <div class="swiper-slide hero relative isolate overflow-hidden bg-white" style="background: linear-gradient(132deg, rgba(99,102,241,1) 0%, rgba(99,102,241,1) 24%, rgba(165,180,252,1) 24%, rgba(165,180,252,1) 43%, rgba(199,210,254,1) 43%, rgba(199,210,254,1) 52%, rgba(238,242,255,1) 52%, rgba(238,242,255,1) 100%);">
       <svg class="absolute inset-0 -z-10 h-full w-full stroke-gray-200 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]" aria-hidden="true">
@@ -173,6 +177,8 @@
       </div>
     </div>
   </div>
+  <!-- If we need pagination -->
+  <div class="swiper-pagination"></div>
 </div>
 <hr>
 <section id="logos">
@@ -215,7 +221,7 @@
   </div>
 </section>
 <hr>
-<section id="apps" class="bg-white py-24 sm:py-32 bg-gradient-to-t from-indigo-50 to-#ffffff">
+<section id="apps" class="bg-white py-24 sm:py-32 bg-gradient-to-b from-indigo-50 to-#ffffff">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto grid max-w-2xl grid-cols-1 gap-x-8 gap-y-16 sm:gap-y-20 lg:mx-0 lg:max-w-none lg:grid-cols-3">
       <div class="el">
@@ -286,7 +292,7 @@
   </div>
 </section>
 <hr>
-<section id="stats" class="bg-white py-24 sm:py-32">
+<section id="stats" class="bg-indigo-50 py-24 sm:py-32">
   <div class="mx-auto max-w-7xl px-6 lg:px-8">
     <div class="mx-auto max-w-2xl lg:max-w-none">
       <div class="text-center">

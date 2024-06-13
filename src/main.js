@@ -177,11 +177,18 @@
 }());
 
 /*
- * add class to header when user scrolls down x pixels to stick header to top
+ * hero swiper https://swiperjs.com/
  */
 (function () {
 	new Swiper('.swiper', {
+		// Optional parameters
+		direction: 'horizontal',
 		speed: 400,
-		spaceBetween: 100,
+		loop: true,
+		// If we need pagination
+		pagination: {
+			el: '.swiper-pagination',
+			clickable: true,
+		},
 	});
 }());
