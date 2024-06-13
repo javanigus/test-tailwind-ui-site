@@ -8,16 +8,18 @@
 	anime({
 		targets: '.hero .el',
 		opacity: [0,1],
-		duration: 3000,
-		translateX: [-200, 0],
+		duration: 1000,
+		translateX: [-300, 0],
+		easing: 'easeOutCubic',
 		delay: anime.stagger(200) // increase delay by 100ms for each elements.
 	});
 
 	anime({
 		targets: '.hero .el2',
 		opacity: [0,1],
-		duration: 3000,
-		translateX: [200, 0],
+		duration: 1000,
+		translateX: [300, 0],
+		easing: 'easeOutCubic',
 		delay: anime.stagger(200) // increase delay by 100ms for each elements.
 	});
 
@@ -27,8 +29,9 @@
 			anime({
 				targets: '#de-risk .el',
 				opacity: [0,1],
-				duration: 3000,
-				translateX: [-200, 0],
+				duration: 1000,
+				translateX: [-300, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -42,8 +45,9 @@
 			anime({
 				targets: '#apps .el',
 				opacity: [0,1],
-				duration: 3000,
-				translateX: [-200, 0],
+				duration: 1000,
+				translateX: [-300, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -57,7 +61,8 @@
 			anime({
 				targets: '#stats .el',
 				opacity: [0,1],
-				duration: 3000,
+				duration: 1000,
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -71,8 +76,9 @@
 			anime({
 				targets: '#features .el',
 				opacity: [0,1],
-				duration: 3000,
-				translateX: [200, 0],
+				duration: 1000,
+				translateX: [300, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -86,8 +92,9 @@
 			anime({
 				targets: '#whitepaper .el',
 				opacity: [0,1],
-				duration: 3000,
-				translateX: [200, 0],
+				duration: 1000,
+				translateX: [300, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -101,8 +108,9 @@
 			anime({
 				targets: '#testimonials .el',
 				opacity: [0,1],
-				duration: 3000,
+				duration: 1000,
 				translateY: [-200, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -116,8 +124,9 @@
 			anime({
 				targets: '#events .el',
 				opacity: [0,1],
-				duration: 3000,
+				duration: 1000,
 				translateY: [200, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -131,8 +140,9 @@
 			anime({
 				targets: '#news .el',
 				opacity: [0,1],
-				duration: 3000,
+				duration: 1000,
 				translateY: [200, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
@@ -146,8 +156,9 @@
 			anime({
 				targets: '#trial .el',
 				opacity: [0,1],
-				duration: 3000,
-				translateX: [-200, 0],
+				duration: 1000,
+				translateX: [-300, 0],
+				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
 			this.destroy()
