@@ -5,11 +5,11 @@
 	new Swiper('.swiper', {
 		// Optional parameters
 		direction: 'horizontal',
-		autoplay: {
+		/*autoplay: {
 			delay: 3000,
 			disableOnInteraction: false,
     		pauseOnMouseEnter: true,
-		},
+		},*/
 		speed: 400,
 		loop: true,
 		// If we need pagination
