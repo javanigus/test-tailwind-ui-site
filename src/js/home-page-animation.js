@@ -50,6 +50,14 @@
 				easing: 'easeOutCubic',
 				delay: anime.stagger(200) // increase delay by 100ms for each elements.
 			});
+			anime({
+				targets: '#apps .app',
+				delay: 1500,
+				opacity: [0,1],
+				duration: 750,
+				easing: 'easeOutCubic',
+				delay: anime.stagger(75) // increase delay by 100ms for each elements.
+			});
 			this.destroy()
 		},
 		offset: '75%'
