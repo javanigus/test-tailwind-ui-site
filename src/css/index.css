@@ -1,3 +1,17 @@
 @import 'partials/header.css';
 @import 'partials/button.css';
 @import 'partials/banner.css';
+
+@media (max-width: 1079px) {
+	.body-wrapper {
+		display: none;
+	}
+	.dev-notice {
+		display: block ;
+	}
+}
+@media (min-width: 1080px) {
+	.dev-notice {
+		display: none ;
+	}
+}
