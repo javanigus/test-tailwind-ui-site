@@ -1,8 +1,10 @@
 .swiper-pagination-bullet {
-	border: 2px solid white;
-	box-shadow: 0px 0px 9px 0px rgba(0,0,0,0.75);
+    border: 2px solid #fff;
     width: 1em;
     height: 1em;
+    box-shadow: 0 0 9px #111827;
+    opacity: 0.5;
+	background-color: white;
 }
 .swiper-pagination-bullet-active {
 	background-color: black;
